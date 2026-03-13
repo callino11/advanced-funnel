@@ -6,7 +6,7 @@ e.preventDefault();
 const name = document.getElementById("name").value;
 const email = document.getElementById("email").value;
 
-fetch("https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec", {
+fetch("https://script.google.com/macros/s/AKfycbxT271vxwuKKzM8pD9A_J2D0DOPoBJMhB3px_UH4wT3HnDmyPEca7S1GSoTzW4eb6f3CA/exec", {
 method: "POST",
 body: JSON.stringify({
 name: name,
